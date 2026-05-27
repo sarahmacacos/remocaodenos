@@ -1,9 +1,10 @@
 package noss;
 
+// classe que representa cada nó da arvore
 public class No {
     Integer conteudo;
-    No esquerda;
-    No direita;
+    No esquerda; // filho da esquerda
+    No direita;  // filho da direita
 
     public No(Integer conteudo) {
         this.conteudo = conteudo;
